@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>        
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="./css/app.css">
+  <link rel="script" href="/public/Scripts/scripts.js"> 
+</head>
+
+<body id="top1">
+  <div class="layer2 spacer"></div> 
+  <!-- About Section -->
+  <div style="margin-top: 20px; margin-bottom: 40px;" class="text-center">
+    <h1 style="color: cornflowerblue; margin: 10px;">Download the Application</h1>
+    <p>Keep your database on your computer and don't worry about losing 🌐 internet connections! Keep it always updated on your computer 💻.</p>
+    <hr style="border-color: black; border-width: 2px;">
+    <button style="margin: 10px;" onclick="downloadFolder()">💾 Click here to download</button>
+    <div style="margin: 10px; border: 1px solid black;">
+      <h2 style="color: cornflowerblue;">Requirements:</h2>
+      <div style="margin: 10px;">
+        <span>⚙️ Operating System: Windows 10</span>
+      </div>
+      <div style="margin: 10px;">
+        <span>⚡Processor (CPU): Dual-core. The application will work well with at least an Intel Core i3.</span>
+      </div>
+      <div style="margin: 10px;">
+        <span>📟 RAM: At least 4GB of RAM is recommended for better performance, especially for multitasking.</span>
+      </div>
+      <div style="margin: 10px;">
+        <span>💽 Storage: At least 1GB of free disk space for the application and its files.</span>
+      </div>
+    </div>
+  </div>
+
+  <section style="margin-top: 20px;" class="text-center">
+    <a href="#top1" class="w3-button text-center w3-black">To the top</a>
+  </section>
+
+  <hr>
+  <div class="layer1 spacer"></div>
+</body>
+
+<style>
+.spacer 
+{
+  aspect-ratio: 680/150;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.layer1 
+{
+  background-image: url('./images/aboutLayerbottom.svg');
+}      
+
+.layer2 
+{
+  background-image: url('./images/aboutLayerTop.svg');
+}    
+</style>
+
+<!-- Download function -->
+<script>
+  function downloadFolder() 
+  {
+    window.location.href = 'http://localhost:3000/api/Installer';
+  }
+</script>
+
+<!-- CHATBOT -->
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/640405e44247f20fefe4065a/1gqnre1al';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+</script>
+<!--End of Tawk.to Script-->
+</html>

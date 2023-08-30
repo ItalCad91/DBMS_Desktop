@@ -1,0 +1,328 @@
+/* Author:Riccardo Reali
+Date: 15-02-2023 */
+
+
+/* HEADER CSS */
+
+.imgPadding
+{
+    padding: 3px;
+}
+
+/* SERVICES CSS */
+
+/* Full height image header */
+.bgimg-2 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/images/services2.png");
+  min-height: 70%;
+}
+.bgimg-4 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/images/Demo.gif");
+  min-height: 70%;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+
+  /* GLOBAL */
+.center
+{
+  text-align: center;
+}
+
+.paddingSpace
+{
+  padding: 35px;
+}
+
+
+/*  FOOTER  */
+
+.footerText
+{
+  font-size: 16px; 
+  font-weight: bold;
+}
+
+.span
+{
+  float: left;
+}
+
+/* HOME */
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/images/App.png");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+
+
+.fontHome
+{
+  font-family: "Montserrat", sans-serif
+}
+
+.w3-row-padding img 
+{
+  margin-bottom: 12px
+}
+
+/* Set the width of the sidebar to 120px */
+.w3-sidebar
+{
+  width: 120px;background: #222;
+}
+
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+.mainHome 
+{
+  margin-left: 120px
+}
+
+
+
+
+/* ABOUT PAGE */
+
+
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.servicesText
+{
+  color: #222;
+}
+
+
+/* CONTACT CSS */
+
+.contact-form{ margin-top:15px;}
+.contact-form .textarea{ min-height:220px; resize:none;}
+.form-control{ box-shadow:none; border-color:#eee; height:49px;}
+.form-control:focus{ box-shadow:none; border-color:#00b09c;}
+.form-control-feedback{ line-height:50px;}
+.main-btn{ background:#00b09c; border-color:#00b09c; color:#fff;}
+.main-btn:hover{ background:#00a491;color:#fff;}
+.form-control-feedback {
+line-height: 50px;
+top: 0px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* CONTACT LIST PAGE */
+
+.round
+{
+  font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 15px;
+
+    /* add this */
+    overflow:hidden
+}
+
+
+
+.text-color
+{
+  color:aqua;
+}
+
+/* LOGIN PAGE */
+
+.icon-margin
+{
+ margin: 5px;
+}
+
+.bgimg-3 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/images/loginBack2.png");
+  min-height: 100%;
+}
+
+.textC1
+{
+  color:rgb(250, 249, 247);
+}
+
+
+
+/* PRODUCT LIST PAGE */
+
+.listColor
+{
+  color: chocolate;
+}
+
+
+/* PROFILE PAGE */
+
+.profileText
+{
+  display: block;
+  text-align: center;
+}
+
+
+.spacer {
+  aspect-ratio: 680/150;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.layer1 {
+background-image: url('./images/aboutLayerbottom.svg');
+}   
+
+.layer2 
+{
+background-image: url('./images/aboutLayerbottom.svg');
+}   
+
+.layer4 {
+background-image: url('./images/aboutLayerTop.svg');
+}     
+
+.layer3 {
+background-image: url('./images/homePoly1.svg');
+}
+
+
+/* HEADER */
+
+.imgPadding
+{
+padding: 5px;
+}
+
+.textColor
+{
+    color: beige;
+}

@@ -1,0 +1,115 @@
+<!-- Author:Riccardo Reali
+Date: 15-02-2023 -->
+
+<head>        
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="./css/app.css">
+  <link rel="script" href="/public/Scripts/scripts.js">
+</head>
+
+<body id="top1">
+
+  <div class="layer1 spacer"></div>   
+
+  <section>
+    <!-- Contact Section -->
+  <div class="w3-container w3-light-grey" style="padding:128px 16px;" id="contact">
+        <h3 class="w3-center"  style="color: cornflowerblue;">CONTACT</h3>
+        <p class="w3-center w3-large" style="color: cornflowerblue;" >Send us a message if you have any issue with our software:</p>
+                
+    <!-- Implemented contact form using formsubmit -->
+    <form action="https://formsubmit.co/coglionaV@protonmail.com" method="POST" role="form" id="contact-form" class="contact-form">
+
+    <!-- Honeypot-->
+    <input type="text" name="_honey" style="display: none;">
+
+    <!--Disable Captcha -->
+    <input type="hidden" name="_captcha" value="false">
+
+    <!-- This value is used for the email's subject, so that you can quickly reply to submissions without having to edit the subject line each time. -->
+
+    <input type="hidden" name="_subject" value="New submission!">
+
+    <!--String to display ThankYou.ejs page after submitting the form -->
+    <input type="hidden" name="_next" value="https://data-management-system.onrender.com/ThankYou">
+    
+          <div class="row">
+            <div class="col-md-6">
+            <div class="form-group">
+            <input type="text" class="form-control" name="Name" autocomplete="off" id="Name" placeholder="Name & Last Name" required oninvalid="this.setCustomValidity('Add your Name')"
+            oninput="this.setCustomValidity('')">
+             </div>
+             </div>
+              <div class="col-md-6">
+               <div class="form-group">
+               <input type="email" class="form-control" name="email" autocomplete="off" id="email" placeholder="E-mail" required oninvalid="this.setCustomValidity('Add your Email')"
+               oninput="this.setCustomValidity('')">
+               </div>
+               </div>
+               </div>
+               <div class="row">
+               <div class="col-md-12">
+               <div class="form-group">
+               <textarea class="form-control textarea" rows="3" name="Message" id="Message" placeholder="Your Message..." required oninvalid="this.setCustomValidity('Add you message')"
+               oninput="this.setCustomValidity('')"></textarea>
+               </div>
+               </div>
+               </div>
+               <div class="row">
+               <div class="col-md-12">
+               <button type="submit" class="btn main-btn pull-right" id="submit">Send</button>
+               </div>
+               </div>
+          </form>
+        </section>
+
+          <!-- Image of location/map
+          <img src="/images/headQ.png" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
+        </div>             -->
+      
+        <section class="text-center">
+          <a href="#top1" style="margin-top: 30px;" class="w3-button text-center w3-black">To the top</a>
+        </section>           
+        <div class="layer2 spacer"></div>
+  </body>
+
+
+<style>
+  .spacer 
+  {
+    aspect-ratio: 680/150;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .layer1 
+  {
+    background-image: url('./images/aboutLayerTop.svg');
+  } 
+  
+  .layer2 
+  {
+    background-image: url('./images/aboutLayerbottom.svg');
+  }   
+  </style>
+
+
+<!-- CHATBOT -->
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/640405e44247f20fefe4065a/1gqnre1al';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+</script>
+<!--End of Tawk.to Script-->
